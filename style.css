@@ -335,6 +335,41 @@ main {
   font-weight: bold;
 }
 
+footer {
+  height: 150px;
+  background-color: #171616;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 40px;
+}
+
+.social-links i {
+  color: #b21b60;
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links i:hover {
+  color: #286379;
+}
+
+.dev-footer {
+  color: white;
+  font-size: 10px;
+  padding-bottom: 25px;
+  letter-spacing: 0.7px;
+}
+
 @media screen and (max-width: 550px) {
   .logo-header h1 {
     opacity: 0;
