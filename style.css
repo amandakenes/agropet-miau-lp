@@ -19,12 +19,14 @@
   color: green;
 }
 
-.contact-number p {
+.contact-number a {
+  color: black;
+  text-decoration: none;
   margin-right: 10px;
   transition: all 0.3s ease-in-out;
 }
 
-.contact-number p:hover {
+.contact-number a:hover {
   color: green;
   cursor: pointer;
 }
