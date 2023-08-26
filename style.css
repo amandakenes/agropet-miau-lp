@@ -69,7 +69,7 @@ header {
 .text-header a {
   color: #b21b60;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   padding-bottom: 5px;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
@@ -80,10 +80,10 @@ header {
 }
 
 .text-header p {
-  font-size: 12px;
+  font-size: 14px;
   color: white;
   text-align: center;
-  line-height: 15px;
+  line-height: 18px;
 }
 
 .services {
