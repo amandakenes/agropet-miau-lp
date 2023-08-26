@@ -56,6 +56,15 @@ header {
   align-items: center;
   justify-content: center;
   color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(23, 22, 22, 0.9528186274509804) 10%,
+    rgba(178, 27, 96, 0.9023984593837535) 43%,
+    rgba(40, 99, 121, 0.8995973389355743) 73%,
+    rgba(23, 22, 22, 0.8995973389355743) 95%
+  );
+  border-radius: 20px;
+  width: 300px;
   text-decoration: underline;
   font-size: 45px;
   letter-spacing: 1px;
@@ -76,6 +85,7 @@ header {
   padding-bottom: 5px;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+  letter-spacing: 0.5px;
 }
 
 .text-header a:hover {
