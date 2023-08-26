@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.contact-number {
+  border-top: 20px solid #b21b60;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.contact-number i {
+  color: green;
+}
+
+.contact-number p {
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-number p:hover {
+  color: green;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #171616;
+  height: 200px;
+}
+
+.logo-header {
+  display: flex;
+  gap: 20px;
+}
+
+.logo-header img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.logo-header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: underline;
+  font-size: 40px;
+  text-align: center;
+}
+
+.text-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-header a {
+  color: #b21b60;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.text-header a:hover {
+  color: #286379;
+}
+
+.text-header p {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  line-height: 15px;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.first-section,
+.third-section,
+.fifth-section {
+  width: 300px;
+  height: 120px;
+  background-color: #286379;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+}
+
+.first-section:hover,
+.third-section:hover,
+.fifth-section:hover {
+  background-color: #96144e;
+}
+
+.second-section,
+.fourth-section {
+  width: 300px;
+  height: 120px;
+  background-color: #96144e;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+}
+
+.second-section:hover,
+.fourth-section:hover {
+  background-color: #286379;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.section-header {
+  background-color: #171616;
+  height: 50px;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  padding: 12px 0px 0px 15px;
+}
+
+.section-header span {
+  color: #b21b60;
+  text-decoration: underline;
+}
+
+.dogs,
+.cats,
+.fish,
+.hamsters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0px;
+  width: 100%;
+  gap: 30px;
+}
+
+.food-dogs,
+.meds-dogs,
+.bath-dogs,
+.food-cats,
+.meds-ac-cats,
+.food-fish,
+.food-hamster,
+.ac-hamster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
+  gap: 25px;
+  border: 3px solid #96144e;
+  transition: all 0.2s ease-in-out;
+  width: 400px;
+  cursor: pointer;
+}
+
+.food-dogs:hover,
+.meds-dogs:hover,
+.bath-dogs:hover,
+.food-cats:hover,
+.meds-ac-cats:hover .food-fish:hover,
+.food-hamster:hover,
+.ac-hamster:hover {
+  border: 3px solid #286379;
+}
+
+.food-dogs h3,
+.meds-dogs h3,
+.bath-dogs h3,
+.food-cats h3,
+.meds-ac-cats h3,
+.food-fish h3,
+.food-hamster h3,
+.ac-hamster h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #96144e;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.food-dogs:hover h3,
+.meds-dogs:hover h3,
+.bath-dogs:hover h3,
+.food-cats:hover h3,
+.meds-ac-cats:hover h3,
+.food-fish:hover h3,
+.food-hamster:hover h3,
+.ac-hamster:hover h3 {
+  color: #286379;
+}
+
+.food-dogs img {
+  width: 120px;
+  transition: all 0.5s ease-in-out;
+}
+
+.food-dogs:hover img {
+  width: 130px;
+}
+.meds-dogs img {
+  width: 185px;
+  transition: all 0.5s ease-in-out;
+}
+
+.meds-dogs:hover img {
+  width: 195px;
+}
+
+.bath-dogs img {
+  width: 210px;
+  transition: all 0.5s ease-in-out;
+}
+
+.bath-dogs:hover img {
+  width: 220px;
+}
+
+.food-cats img {
+  width: 240px;
+  transition: all 0.5s ease-in-out;
+}
+
+.food-cats:hover img {
+  width: 250px;
+}
+
+.meds-ac-cats img {
+  width: 190px;
+  transition: all 0.5s ease-in-out;
+}
+
+.meds-ac-cats:hover img {
+  width: 200px;
+}
+
+.food-fish img {
+  width: 200px;
+  transition: all 0.5s ease-in-out;
+}
+
+.food-fish:hover img {
+  width: 210px;
+}
+
+.food-hamster img,
+.ac-hamster img {
+  width: 190px;
+  transition: all 0.5s ease-in-out;
+}
+
+.food-hamster:hover img,
+.ac-hamster:hover img {
+  width: 200px;
+}
+
+.food-dogs button,
+.meds-dogs button,
+.bath-dogs button,
+.food-cats button,
+.meds-ac-cats button,
+.food-fish button,
+.food-hamster button,
+.ac-hamster button {
+  border: none;
+  height: 40px;
+  width: 80%;
+  background-color: #96144e;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.food-dogs button:hover,
+.meds-dogs button:hover,
+.bath-dogs button:hover,
+.food-cats button:hover,
+.meds-ac-cats button:hover,
+.food-fish button:hover,
+.food-hamster button:hover,
+.ac-hamster button:hover {
+  background-color: #286379;
+}
+
+.food-dogs button a,
+.meds-dogs button a,
+.bath-dogs button a,
+.food-cats button a,
+.meds-ac-cats button a,
+.food-fish button a,
+.food-hamster button a,
+.ac-hamster button a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+  .logo-header h1 {
+    opacity: 0;
+  }
+
+  .logo-header img {
+    width: 300px;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .logo-header {
+    flex-direction: column;
+  }
+
+  .logo-header h1 {
+    margin-top: -100px;
+    margin-bottom: 15px;
+  }
+
+  .text-header {
+    gap: 8px;
+  }
+
+  .services {
+    height: 600px;
+    flex-direction: column;
+  }
+
+  .first-section,
+  .second-section,
+  .third-section,
+  .fourth-section,
+  .fifth-section {
+    width: 100%;
+  }
+
+  .dogs {
+    height: 150vh;
+    flex-direction: column;
+  }
+
+  .cats {
+    height: 155vh;
+    flex-direction: column;
+  }
+
+  .hamsters {
+    height: 100vh;
+    flex-direction: column;
+  }
+}
