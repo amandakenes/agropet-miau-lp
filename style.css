@@ -57,7 +57,8 @@ header {
   justify-content: center;
   color: white;
   text-decoration: underline;
-  font-size: 40px;
+  font-size: 45px;
+  letter-spacing: 1px;
   text-align: center;
 }
 
@@ -82,10 +83,17 @@ header {
 }
 
 .text-header p {
-  font-size: 14px;
+  font-size: 11px;
   color: white;
   text-align: center;
   line-height: 18px;
+  letter-spacing: 2px;
+}
+
+.text-header span {
+  color: #286379;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .services {
@@ -370,6 +378,18 @@ footer {
   font-size: 10px;
   padding-bottom: 25px;
   letter-spacing: 0.7px;
+}
+
+.dev-footer a {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+.dev-footer a:hover {
+  color: #286379;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 550px) {
